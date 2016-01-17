@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService{
 
     /*
      * Получение сущностей из базы данных во время транзакции
-     * Обновление данных в базе посде окончания транзакции.
+     * Обновление данных в базе после окончания транзакции.
      */
     public void updateUser(User user) {
         User entity = dao.findById(user.getId());
