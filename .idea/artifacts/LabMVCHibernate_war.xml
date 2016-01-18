@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="LabMVCHibernate:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="MVCHibernate.war">
+    <root id="archive" name="LabMVCHibernate.war">
       <element id="artifact" artifact-name="LabMVCHibernate:war exploded" />
     </root>
   </artifact>

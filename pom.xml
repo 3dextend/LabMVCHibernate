@@ -8,7 +8,7 @@
     <artifactId>LabMVCHibernate</artifactId>
     <packaging>war</packaging>
     <version>1.0.0</version>
-    <name>MVCHibernate</name>
+    <name>LabMVCHibernate</name>
     <properties>
         <springframework.version>4.1.7.RELEASE</springframework.version>
         <hibernate.version>4.3.10.Final</hibernate.version>
@@ -99,13 +99,13 @@
                     <version>2.4</version>
                     <configuration>
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                        <warName>MVCHibernate</warName>
+                        <warName>LabMVCHibernate</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>MVCHibernate</finalName>
+        <finalName>LabMVCHibernate/finalName>
     </build>
 
 </project>
